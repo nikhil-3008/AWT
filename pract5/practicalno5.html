@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JSON Data</title>
+</head>
+<body>
+    <div id="jsonData"></div>
+
+    <script>
+        fetch('database.json')
+            .then(response => response.json())
+            .then(data => {
+                var mydata = data;
+                
+                // Convert JSON data to a string and display it on the web page
+                document.getElementById('jsonData').innerText = JSON.stringify(mydata, null, 2);
+            })
+            .catch(error => {
+                console.error('Error loading JSON:', error);
+                document.getElementById('jsonData').innerText = 'Error loading JSON data.';
+            });
+    </script>
+</body>
+</html>

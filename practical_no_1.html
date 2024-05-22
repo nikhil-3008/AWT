@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Creation</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function createTable(rows, cols) {
+            // Create a table element
+            var table = document.createElement('table');
+
+            // Create rows
+            for (var i = 0; i < rows; i++) {
+                var row = table.insertRow();
+
+                // Create columns
+                for (var j = 0; j < cols; j++) {
+                    var cell = row.insertCell();
+                    // Set content as Row-Column number
+                    cell.textContent = 'Row-' + i + ' Column-' + j;
+                }
+            }
+
+            // Append the table to the body
+            document.body.appendChild(table);
+        }
+
+        // Prompt the user for row and column numbers
+        var rows = parseInt(prompt("Enter the number of rows:"));
+        var cols = parseInt(prompt("Enter the number of columns:"));
+        createTable(rows, cols);
+    </script>
+</body>
+</html>

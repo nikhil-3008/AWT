@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="pract4.css">
+    <title>Admission Form</title>
+    <style>
+        #main{
+            height: auto;
+            width: auto;
+        }
+        .border-2{
+            border: 1px solid;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex justify-center" id="main">
+        <div class="w-100 flex justify-center p-4 h-96" >
+       
+            <form action="" class="shadow-xl bg-gray-200" id="form">
+                <fieldset >
+                    <legend>Admission Form</legend>
+                <div class="m-2">
+                    <label for="name">Enter your Name:</label>
+                    <input type="text" class=" border-2" name="name"></input>
+                </div>
+                <div class="m-2">
+                    <label for="city">Enter your City:</label>
+                    <input type="text" class=" border-2" name="city"></input>
+                </div>
+                <div class="m-2">
+                    <label for="email">Enter your Email:</label>
+                    <input type="text" class=" border-2" name="email"></input>
+                </div>
+                <div class="m-2">
+                    <p>Please select your age:</p>
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">0 - 30</label><br>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">31 - 60</label><br>  
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">61 - 100</label><br>
+                </div>
+                <div class=" flex justify-center ">
+                    <button class="toggle bg-red-400 rounded-md w-20"> Submit</button>
+                </div>
+            </fieldset>
+            </form>
+        
+        </div>
+    </div>
+    
+</body>
+</html>

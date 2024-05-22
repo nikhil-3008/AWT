@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <database>
+    <USN>21070320</USN>
+    <Name>Nikhil Dhande</Name>
+    <Branch>CSE</Branch>
+    <Email>ndhande123@gmail.com</Email>
+    <College_Name>YCCE</College_Name>
+    <year_of_joining>2021</year_of_joining>
+  </database>
+  <database>
+    <USN>21070323</USN>
+    <Name>Yash Patle</Name>
+    <Branch>Ctech</Branch>
+    <Email>yash123@gmail.com</Email>
+    <College_Name>Priyadarshani</College_Name>
+    <year_of_joining>2021</year_of_joining>
+  </database>
+  <database>
+    <USN>21370320</USN>
+    <Name>Vaishav Pusadkar</Name>
+    <Branch>CSE</Branch>
+    <Email>vaishav@gmail.com</Email>
+    <College_Name>vnit</College_Name>
+    <year_of_joining>2021</year_of_joining>
+  </database>
+</root>

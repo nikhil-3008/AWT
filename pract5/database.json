@@ -1,0 +1,27 @@
+{  
+    "database": [{  
+        "USN": 21070320,   
+        "Name": "Nikhil Dhande",   
+        "College ": "YCCE" ,
+        "Branch" : "CSE",
+        "year" : "2021",
+        "Email" : "ndhande123@gmail.com"
+    },
+    {  
+        "USN": 21070323,   
+        "Name": "Yash Patle",   
+        "College ": "Priyadarshani" ,
+        "Branch" : "Ctech",
+        "year of joining" : "2021",
+        "Email" : "yash123@gmail.com"
+    },
+    {  
+        "USN": 21370320,   
+        "Name": "Vaishav Pusadkar",   
+        "College ": "vnit" ,
+        "Branch" : "CSE",
+        "year of joining" : "2021",
+        "Email" : "vaishav@gmail.com"
+    }]
+
+}  
